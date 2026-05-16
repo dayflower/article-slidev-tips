@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --out docs/ --base ./",
+    "build": "slidev build --out docs/ --base ./ && touch docs/.nojekyll",
     "dev": "slidev",
     "export": "slidev export",
     "readme": "node scripts/generate-readme.js"
