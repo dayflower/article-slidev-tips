@@ -3,9 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build README.md",
-    "dev": "slidev README.md",
-    "export": "slidev export README.md"
+    "build": "slidev build",
+    "dev": "slidev",
+    "export": "slidev export",
+    "readme": "node scripts/generate-readme.js"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.2",
